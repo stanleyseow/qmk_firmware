@@ -1,4 +1,4 @@
-# dumbpad
+# RGB SVT Hotswap Dumbpad
 
 ![RGB SVT Hotswap Dumbpad](https://live.staticflickr.com/65535/50894165542_907e30a721_c.jpg")
 
