@@ -48,17 +48,28 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DIODE_DIRECTION COL2ROW
 
 /* Rotary encoder */
-#define ENCODERS_PAD_A { D0 }
-#define ENCODERS_PAD_B { D4 }
+// D1, D0 is right encoder
+// D4, B2 is left encoder
+#define ENCODERS_PAD_A { D4 } 
+#define ENCODERS_PAD_B { B2 }
 
 /* LED layer indicators */
-#define LAYER_INDICATOR_LED_0 B3
-#define LAYER_INDICATOR_LED_1 B1
+// These are the 2 on-board LED at B0 and D5 (working )
+//#define LAYER_INDICATOR_LED_0 B0
+//#define LAYER_INDICATOR_LED_1 D5
+// Using external LED 
+#define LAYER_INDICATOR_LED_0 B6 // Red
+//#define LAYER_INDICATOR_LED_0 B1 // Green for Andy
+#define LAYER_INDICATOR_LED_1 B1 // Blue or Green
+//#define LAYER_INDICATOR_LED_1 B6 // For ANDY
+
+// On-board LED for debugging
+#define LAYER_INDICATOR_LED_2 B0
+#define LAYER_INDICATOR_LED_3 D5
 
 /* Bootmagic - hold down rotary encoder pushbutton while plugging in to enter bootloader */
 #define BOOTMAGIC_LITE_ROW 3
 #define BOOTMAGIC_LITE_COLUMN 0
-
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
@@ -82,33 +93,34 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define BACKLIGHT_BREATHING
 // #define BACKLIGHT_LEVELS 3
 
-// #define RGB_DI_PIN E2
-// #ifdef RGB_DI_PIN
-//   #define RGBLED_NUM 16
-//   #define RGBLIGHT_HUE_STEP 8
-//   #define RGBLIGHT_SAT_STEP 8
-//   #define RGBLIGHT_VAL_STEP 8
-//   #define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
-//   #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
-// /*== all animations enable ==*/
-//   #define RGBLIGHT_ANIMATIONS
-// /*== or choose animations ==*/
-//   #define RGBLIGHT_EFFECT_BREATHING
-//   #define RGBLIGHT_EFFECT_RAINBOW_MOOD
-//   #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-//   #define RGBLIGHT_EFFECT_SNAKE
-//   #define RGBLIGHT_EFFECT_KNIGHT
-//   #define RGBLIGHT_EFFECT_CHRISTMAS
-//   #define RGBLIGHT_EFFECT_STATIC_GRADIENT
-//   #define RGBLIGHT_EFFECT_RGB_TEST
-//   #define RGBLIGHT_EFFECT_ALTERNATING
-// /*== customize breathing effect ==*/
-//   /*==== (DEFAULT) use fixed table instead of exp() and sin() ====*/
-//   #define RGBLIGHT_BREATHE_TABLE_SIZE 256      // 256(default) or 128 or 64
-//   /*==== use exp() and sin() ====*/
-//   #define RGBLIGHT_EFFECT_BREATHE_CENTER 1.85  // 1 to 2.7
-//   #define RGBLIGHT_EFFECT_BREATHE_MAX    255   // 0 to 255
-// #endif
+// Arduino D12 
+#define RGB_DI_PIN B3
+#ifdef RGB_DI_PIN
+  #define RGBLED_NUM 4
+  #define RGBLIGHT_HUE_STEP 8
+  #define RGBLIGHT_SAT_STEP 8
+  #define RGBLIGHT_VAL_STEP 8
+  #define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
+  #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
+/*== all animations enable ==*/
+  // #define RGBLIGHT_ANIMATIONS
+/*== or choose animations ==*/
+   #define RGBLIGHT_EFFECT_BREATHING
+   #define RGBLIGHT_EFFECT_RAINBOW_MOOD
+  // #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+  // #define RGBLIGHT_EFFECT_SNAKE
+   #define RGBLIGHT_EFFECT_KNIGHT
+  // #define RGBLIGHT_EFFECT_CHRISTMAS
+   #define RGBLIGHT_EFFECT_STATIC_GRADIENT
+   #define RGBLIGHT_EFFECT_RGB_TEST
+  // #define RGBLIGHT_EFFECT_ALTERNATING
+/*== customize breathing effect ==*/
+  /*==== (DEFAULT) use fixed table instead of exp() and sin() ====*/
+  #define RGBLIGHT_BREATHE_TABLE_SIZE 256      // 256(default) or 128 or 64
+  /*==== use exp() and sin() ====*/
+  #define RGBLIGHT_EFFECT_BREATHE_CENTER 1.85  // 1 to 2.7
+  #define RGBLIGHT_EFFECT_BREATHE_MAX    255   // 0 to 255
+#endif
 
 /* If defined, GRAVE_ESC will always act as ESC when CTRL is held.
  * This is userful for the Windows task manager shortcut (ctrl+shift+esc).
@@ -125,7 +137,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * If forced on, NKRO can be disabled via magic key (default = LShift+RShift+N)
  * until the next keyboard reset.
  *
- * NKRO may prevent your keystrokes from being detected in the BIOS, but it is
+9 * NKRO may prevent your keystrokes from being detected in the BIOS, but it is
  * fully operational during normal computer usage.
  *
  * For a less heavy-handed approach, enable NKRO via magic key (LShift+RShift+N)
