@@ -1,16 +1,14 @@
 # dumbpad
 
-![dumbpad](https://i.imgur.com/sS3fq1Z.jpg)
+![RGB SVT Hotswap Dumbpad](https://live.staticflickr.com/65535/50894165542_907e30a721_c.jpg")
 
 A 4x4 macro/numpad with rotary encoder.
 
-Keyboard Maintainer: [imchipwood](https://github.com/imchipwood)
-
-PCB repository: https://github.com/imchipwood/dumbpad
+Keyboard Maintainer: [stanleyseow](https://github.com/stanleyseow)
 
 Make example for this keyboard (after setting up your build environment):
 
-    make dumbpad:default
+    make dumbpad:svt_numpad
 
 Program with:
 
