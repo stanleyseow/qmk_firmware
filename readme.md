@@ -25,19 +25,18 @@ Added Support for VIA (https://github.com/the-via/releases/releases/tag/v1.3.1)
 
 ## Steps
 
-* [Download] SVT firmware with VIA support (/keyboards/dumbpad/via/dumbpad_svt_via.hex)
-* Flash the firmware to SVT RGB Dumbpad
+* Download [SVT firmware with VIA support](/keyboards/dumbpad/via/dumbpad_svt_via.hex)
+* Flash the firmware to SVT RGB Dumbpad using QMK Toolbox
 * Install and run the Via application
-* Download [dumbpad_via.json] keymaps (/keyboards/dumbpad/via/dumbpad_via.json)
-* Load the keymap, File -> Import Keymap
-* Configure the keys, it is automatically saved
+* Download keymap settings [dumbpad_via.json](/keyboards/dumbpad/via/dumbpad_via.json)
+
+* Load the keymap (dumbpad_via.json), File -> Import Keymap
+* Configure the keys, it is **automatically saved**
 * Use Key Tester to test your new assign settings
 
 ### Do NOT remove **RESET** from the keymap layers
 
 
-
-The project also includes community support for [lots of other keyboards](/keyboards/).
 
 ## Official Website
 
