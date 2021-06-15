@@ -34,7 +34,10 @@ Added Support for VIA (https://github.com/the-via/releases/releases/tag/v1.3.1)
 * Configure the keys, it is **automatically saved**
 * Use Key Tester to test your new assign settings
 
-### Do NOT remove **RESET** from the keymap layers
+### Do NOT remove keyboard **RESET** from the keymap layers 
+### You will need to trigger a RESET to update your firmware in the future.
+
+This firmware is **NOT** compatible with original Dumbpad firmware
 
 
 
