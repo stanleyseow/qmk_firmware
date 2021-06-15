@@ -19,18 +19,23 @@ You can request changes by making a fork and opening a [pull request](https://gi
 
 ## Supported Keyboards
 
-* [Planck](/keyboards/planck/)
-* [Preonic](/keyboards/preonic/)
-* [ErgoDox EZ](/keyboards/ergodox_ez/)
-* [Clueboard](/keyboards/clueboard/)
-* [Cluepad](/keyboards/clueboard/17/)
-* [Atreus](/keyboards/atreus/)
+* [SVT Dumbpad](/keyboards/dumbpad/)
+
+Added Support for VIA (https://github.com/the-via/releases/releases/tag/v1.3.1)
+
+## Steps
+
+* Flash SVT RGB Dumbpad with new VIA firmware (/keyboards/dumbpad/via/dumbpad_svt_via.hex )
+* Run Via application
+* File -> Import Keymap (/keyboards/dumbpad/via/dumbpad_via.json )
+* Configure the keys, it is automatically saved
+* Use Key Tester to test your new assign settings
+
+### Do NOT REMOVE *Reset* from the keymap layers 2
+
+
 
 The project also includes community support for [lots of other keyboards](/keyboards/).
-
-## Maintainers
-
-QMK is developed and maintained by Jack Humbert of OLKB with contributions from the community, and of course, [Hasu](https://github.com/tmk). The OLKB product firmwares are maintained by [Jack Humbert](https://github.com/jackhumbert), the Ergodox EZ by [ZSA Technology Labs](https://github.com/zsa), the Clueboard by [Zach White](https://github.com/skullydazed), and the Atreus by [Phil Hagelberg](https://github.com/technomancy).
 
 ## Official Website
 
