@@ -16,21 +16,28 @@ Items provided, RM25.00 :-
 Items to purchase :-
 - 1 x Pro micro 
 - 1 x EC11 20MM rotary encoder with plum head
+- 1 x knob of your choice 
 - 17 1N4148 diode ( SOD-123 )
 - 16 Kailh Hotswap Sockets 1511 Series
 - 8 x WS2812B 5050SMD
 - 16 x SK6812 mini-e 3228SMD
 - 16 switches of your choice ( Cherry / Gateron / Kailh / many many options )
 - 16 keycaps of your choice
-- 4 x m3 brass headers + screws + nuts
+- 4 x M3 Male to Female Brass Screw Thread PCB Stand-off Spacer ( 10mm + 6mm option )
 
 
-Suggested Links :-
+Suggested Links ( you ma find cheaper options from China ) :-
 Pro Micro 
 https://shopee.com.my/Pro-Micro-ATmega32U4-(Micro-USB)-Micro-Controller-Board-Arduino-Compatible-Leonardo-i.126211897.5363748242
 
 EC11 Rotary Encoder
 https://shopee.com.my/5PCS-LOT-20-Position-360-Degree-Rotary-Encoder-EC11-w-Push-Button-5Pin-Handle-Long-15-20MM-With-A-Built-In-Push-Button-Switch-i.395116701.9445719227
+
+knob
+https://shopee.com.my/Aluminium-Alloy-Knob-Fit-For-6mm-Potentiometer-Shaft-(Silver)-i.6641351.1008374495
+or 
+Guitar Knobs
+https://shopee.com.my/Electric-Guitar-Tone-Volumn-Control-Knob-Upgrade-Metal-Control-Knob-2-Pcs-i.47595297.4111446646
 
 1N4148 Diode SOD-123
 https://shopee.com.my/%F0%9F%94%A5HOT%F0%9F%94%A510Pieces-1N4148W-1N4148-TD-SOD-123-Diode-i.168163073.4971438619
@@ -49,3 +56,7 @@ https://shopee.com.my/Glorious-Kailh-Gateron-Switches-(Panda-Kailh-Bronze-Kailh-
 
 Keycaps
 https://shopee.com.my/xinp%E2%9C%A8-10Pcs-Transparent-ABS-Keycaps-Mechanical-keyboard-Keycaps-Matte-Backlit-Keycaps-i.255024353.6437822018
+
+M3 spacers
+https://shopee.com.my/M3-Male-to-Female-Brass-Screw-Thread-PCB-Stand-off-Spacer-i.55645224.2614900477
+
