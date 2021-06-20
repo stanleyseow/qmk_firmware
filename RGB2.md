@@ -1,7 +1,7 @@
 
 ### Items needed for SVT RGB2 Dumbpad ( per-key RGB keyboard )
 
-Items provided, RM25.00 :-
+Items provided :-
 - 1 x SVT RGB PCB rev5
 - 1 x SVT Dumbpad top plates
 - 1 x 1206 red LED
